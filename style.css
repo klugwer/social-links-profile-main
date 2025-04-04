@@ -66,3 +66,47 @@ h1{
     font-weight: 400;
     font-size: 14px;
 }
+
+.buttons{
+    margin-bottom: 20px;
+}
+
+.button-link{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    width: 100%;
+    max-width: 280px;
+    height: 45px;
+    margin: 15px auto;
+    border-radius: 10px;
+
+    color:hsl(0, 0%, 100%);
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.attribution{
+    text-decoration: none;
+    color:hsl(0, 0%, 50%);
+    margin-bottom: 20px;
+}
+
+.attribution a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+
+.attribution a,
+.attribution a:visited,
+.attribution a:link,
+.attribution a:hover,
+.attribution a:active {
+  text-decoration: none;
+  color: hsl(0, 0%, 80%);
+}
